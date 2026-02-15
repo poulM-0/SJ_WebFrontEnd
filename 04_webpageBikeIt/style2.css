@@ -1,0 +1,88 @@
+body{
+    width: auto;
+    height: auto;
+    padding: 0%;
+    margin: 0%;
+}
+
+hr{
+    align-self: center;
+    width:100%;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+p{
+    margin: 0;
+
+}
+
+.MainContainer{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    border-style: solid;
+    margin: 30vh 30vw 0vw 10vw;
+    padding: 10px 10px;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+
+
+.ImgContainer{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+ 
+}
+.column{
+    flex-direction: column;
+    margin:0;
+    gap:10px;
+
+}
+.Container-right{
+    height:auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.BottomImgContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.Img1{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+.Img2{
+    width: 95px;
+    height:50%;
+    background-color: darkblue;
+    border-radius: 10px;
+}
+.Img3{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 242, 0);
+    border-radius: 10px;
+
+}
+
+.Img4{
+ 
+    width: 100px;
+    height: 50px;
+    background-color: rgb(21, 255, 0);
+    border-radius: 10px;
+}
+

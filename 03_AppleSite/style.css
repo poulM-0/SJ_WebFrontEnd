@@ -1,0 +1,62 @@
+body{
+    height: 200%;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    position: sticky;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+    height: 10vh;
+}
+
+.titleBox{
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.title{
+}
+
+.titleSml{
+}
+
+.box{
+    width: 10vw;
+    border-radius: 15px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.one{
+    background-color: aquamarine;
+    height: 70vh;
+}
+.two{
+    background-color: bisque;
+    height: 40vh;
+}
+.three{
+    background-color: steelblue;
+    height: 55vh;
+}
+.four{
+    background-color: chocolate;
+    height: 80vh;
+}

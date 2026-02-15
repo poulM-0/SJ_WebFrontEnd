@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.boxOne{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+
+}
+
+.boxTwo{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: relative
+}
+
+.fakeImg{
+    background-color: black;
+    height: 40%;
+    width: 60%;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.boxThree{
+    background-color: rgb(134, 0, 0);
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.boxFour{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    justify-items: center;
+}
