@@ -23,3 +23,19 @@ const loadBtn = document.getElementById('load-users');
 if (loadBtn) {
 	loadBtn.addEventListener('click', loadData);
 }
+
+const colorBtn = document.getElementById('colorBtn');
+const midasBtn = document.getElementById('midasBtn');
+
+midasBtn.addEventListener('click',(function(){
+    const users = document.getElementsByClassName("user");
+    for(var i=0;i<users.length;i++){
+        users[i].classList.toggle('midas');
+    }
+}))
+colorBtn.addEventListener('click',(function(){
+    const users = document.getElementsByClassName("user");
+    for(var i=0;i<users.length;i++){
+        users[i].classList.toggle('color'+i);
+    }
+}))
