@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+nav{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 10vh;
+    background-color: #f2f1f1bc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    z-index: 1;
+}
+.search #src{
+    justify-self: center;
+    align-self: center;
+}
+
+.logo{
+    display: none;
+}
+
+.navright{
+    display: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10vh;
+}
+
+.piece{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.piecetop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.piecetopleft{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 80vw;
+}
+.piecetopright{
+    display: none;
+}
+.cardContainer{
+    display: grid;
+    grid-template-columns: repeat(10,10rem);
+    scroll-behavior: smooth;
+    overflow-x: auto;
+    width: 100vw;
+    height: auto;
+    gap: 10px;
+}
+
+.card{
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.img{
+    background-color: aquamarine;
+    width: 9rem;
+    height: 9rem;
+    border-radius: 10px;
+}
+@media screen and (min-width :720px) {
+    .logo{
+        display: block;
+    }
+
+    .navright{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    nav{
+        justify-content: space-between;
+    }
+    .cardContainer{
+        width: 80vw;
+    }
+    .container{
+        margin-top: 20vh;
+    }
+    .piecetopright{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .piecetopleft{
+        justify-content: flex-start;
+    }
+    .logo{
+        width: 30px;
+        height: 30px;
+        background-color: brown;
+    }
+}

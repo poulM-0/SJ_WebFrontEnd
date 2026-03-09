@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    width: 20vw;
+    background-color: blue;
+}
+
+.cardTop{
+    position: relative;
+    height: 70%;
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.cardBottom{
+    height: 10%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: none;
+    line-height: 10%;
+    
+}
+
+.shoeIMG{
+    background-color: blueviolet;
+    height:100%;
+    width: 100%;
+}
+
+.btnDiv{
+    height: 2rem;
+    gap: 1/2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 90%;
+
+}
+
+
+#qualcosa{
+
+}
+
+#promo{
+
+}
+
+#like{
+    position: absolute;
+    left:89%;
+    top: 1%;
+    width: 2rem;
+    height: 2rem;
+}
