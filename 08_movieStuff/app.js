@@ -1,4 +1,11 @@
 //no Ai, tutta sofferenza umana
+
+//stuff to add/do:
+//comments on movies
+//button to modify movies data (button -> modal with values-> changed values)
+//fix list button css
+//optimize LITERALLY FUCKING EVERYTHING IDIOT
+
 const addbtn = document.getElementById("clickMe");
 const backdrop = document.getElementById("backdrop");
 const movieAdd = document.getElementById("add-modal");
@@ -12,9 +19,7 @@ const titles = document.getElementsByClassName("movie-element");
 const mvNodes = document.getElementsByClassName("movie-element-node");
 const placeholder = document.getElementById("entry-text");
 const orderButton= document.getElementById("orderbtn");
-
 const form = document.querySelector("#form");
-//console.log(form);
 var Dcheck=0;
 
 function darkmode(){
