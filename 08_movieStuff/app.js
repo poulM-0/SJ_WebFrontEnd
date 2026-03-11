@@ -4,6 +4,7 @@
 //comments on movies
 //button to modify movies data (button -> modal with values-> changed values)
 //fix list button css
+//export svgs to external files 
 //optimize LITERALLY FUCKING EVERYTHING IDIOT
 
 const addbtn = document.getElementById("clickMe");
@@ -70,7 +71,6 @@ function removeFilm(idfilm){
         orderButton.style.setProperty('display','none')
     }
     for(var i = 0;i<titles.length;i++){
-        //titles[i].id=(i+1);
         btnDlt[i].id=(i+1);
         mvNodes[i].id=(i+1);
     }
@@ -171,7 +171,6 @@ btnRgrt.addEventListener('click', function(){
 
 form.addEventListener('submit', function(e){
     e.preventDefault();
-    //console.log(placeholder);
     placeholder.style.setProperty('display','none');
     orderButton.style.setProperty('display','block');
     movieAdd.classList.remove('visible');
@@ -219,7 +218,6 @@ form.addEventListener('submit', function(e){
         +"<div class='small-btn-div'>"
             +"<button id='0' class='dltButton' onclick='goodbye(this.id)'><img src='assets/trash-icon.png' class='icon' alt='error'></button>"
     +"</div>";
-    //console.log(titles);
     
     document.getElementById("movie-list").appendChild(newLi);
     if(Dcheck==1){
@@ -229,7 +227,6 @@ form.addEventListener('submit', function(e){
     var d = new Date();
     titles[titles.length-1].id= d.getTime();
     for(var i = 0;i<titles.length;i++){
-        //titles[i].id=(i+1);
         btnDlt[i].id=(i+1);
         mvNodes[i].id=(i+1);
     }
